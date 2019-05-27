@@ -1,0 +1,12 @@
+</servers>
+<repository>
+  <id>dev-azure-com-nicoleputois-nicoleputois</id>
+  <url>https://pkgs.dev.azure.com/NicoLeputois/_packaging/NicoLeputois/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+<servers/>

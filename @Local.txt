@@ -1,0 +1,4 @@
+nuget.exe push -Source {NuGet package source URL} -ApiKey key {your_package}.nupkg
+
+nuget.exe install HelloWorld -ExcludeVersion
+nuget.exe push -Source {NuGet package source URL} -ApiKey key HelloWorld\HelloWorld.nupkg

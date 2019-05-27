@@ -1,0 +1,4 @@
+https://pkgs.dev.azure.com/NicoLeputois/_packaging/NicoLeputois/nuget/v3/index.json
+
+nuget.exe sources Add -Name "NicoLeputois" -Source "https://pkgs.dev.azure.com/NicoLeputois/_packaging/NicoLeputois/nuget/v3/index.json"
+nuget.exe push -Source "NicoLeputois" -ApiKey AzureDevOps my_package.nupkg

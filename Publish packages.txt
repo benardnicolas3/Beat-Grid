@@ -1,0 +1,1 @@
+az artifacts universal publish --organization "https://dev.azure.com/NicoLeputois/" --feed "NicoLeputois" --name "my-package-name" --version "12.2.0" --description "My description" --path .
